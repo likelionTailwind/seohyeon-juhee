@@ -548,20 +548,12 @@ h3 {
   height: 60px;
 }
 
-.h-full {
-  height: 100%;
-}
-
 .w-\[540px\] {
   width: 540px;
 }
 
 .w-\[220px\] {
   width: 220px;
-}
-
-.w-full {
-  width: 100%;
 }
 
 .flex-col {
