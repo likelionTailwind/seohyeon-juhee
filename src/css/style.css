@@ -419,6 +419,18 @@ video {
   display: none;
 }
 
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+}
+
+=======
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -517,6 +529,13 @@ video {
 
 /* Tailwind 유틸리티 클래스와 플러그인에 의해 등록된 모든 유틸리티 클래스를 주입합니다. */
 
+.mb-\[50px\] {
+  margin-bottom: 50px;
+}
+
+.box-border {
+  box-sizing: border-box;
+}
 .my-\[83px\] {
   margin-top: 83px;
   margin-bottom: 83px;
@@ -535,10 +554,25 @@ video {
   display: block;
 }
 
+.inline-block {
+  display: inline-block;
+}
+
 .flex {
   display: flex;
 }
 
+.h-\[60px\] {
+  height: 60px;
+}
+
+.w-\[540px\] {
+  width: 540px;
+}
+
+.w-\[220px\] {
+  width: 220px;
+=======
 .w-\[393px\] {
   width: 393px;
 }
@@ -567,6 +601,13 @@ video {
   flex-direction: column;
 }
 
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+=======
 .flex-wrap {
   flex-wrap: wrap;
 }
@@ -575,6 +616,118 @@ video {
   justify-content: space-between;
 }
 
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.border-2 {
+  border-width: 2px;
+}
+
+.border-solid {
+  border-style: solid;
+}
+
+.border-black {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
+.bg-red-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
+.py-\[40px\] {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.px-\[200px\] {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.py-\[8px\] {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.px-\[12\.5px\] {
+  padding-left: 12.5px;
+  padding-right: 12.5px;
+}
+
+.py-\[57px\] {
+  padding-top: 57px;
+  padding-bottom: 57px;
+}
+
+.px-\[225px\] {
+  padding-left: 225px;
+  padding-right: 225px;
+}
+
+.py-\[28px\] {
+  padding-top: 28px;
+  padding-bottom: 28px;
+}
+
+.py-\[15px\] {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.px-\[20px\] {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.pl-\[25px\] {
+  padding-left: 25px;
+}
+
+.pb-\[16px\] {
+  padding-bottom: 16px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-normal {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.03em;
+  font-weight: 700;
+}
+
+.text-2xl {
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: -0.03em;
+}
+
+.text-xl {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: -0.03em;
+}
+
+.text-xs {
+  font-size: 22px;
+  line-height: 26.4px;
+  letter-spacing: -0.03em;
+  font-weight: 700;
+=======
 .gap-5 {
   gap: 1.25rem;
 }
@@ -690,8 +843,19 @@ video {
   color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 
+
+.text-gray-400 {
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+
 /* 사용자 정의 스타일 */
 
 [hidden] {
   display: none;
+}
+
+.hover\:bg-red-700:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(185 28 28 / var(--tw-bg-opacity));
 }
