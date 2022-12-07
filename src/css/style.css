@@ -532,6 +532,13 @@ h3 {
 /* Tailwind 유틸리티 클래스와 플러그인에 의해 등록된 모든 유틸리티 클래스를 주입합니다. */
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+.mb-\[50px\] {
+  margin-bottom: 50px;
+}
+
+>>>>>>> seohyeon
 .box-border {
   box-sizing: border-box;
 =======
@@ -552,6 +559,10 @@ h3 {
 .block {
   display: block;
 >>>>>>> juhee
+}
+
+.inline-block {
+  display: inline-block;
 }
 
 .flex {
@@ -639,8 +650,12 @@ h3 {
   background-color: rgb(239 68 68 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\.\/img\/Template\.png\'\)\] {
-  background-image: url('./img/Template.png');
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
 }
 
 .py-\[40px\] {
@@ -690,6 +705,10 @@ h3 {
 
 .pl-\[25px\] {
   padding-left: 25px;
+}
+
+.pb-\[16px\] {
+  padding-bottom: 16px;
 }
 
 .text-center {
@@ -823,6 +842,7 @@ h3 {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 .text-gray-200 {
   --tw-text-opacity: 1;
@@ -840,6 +860,13 @@ h3 {
 }
 
 >>>>>>> juhee
+=======
+.text-gray-400 {
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+
+>>>>>>> seohyeon
 /* 사용자 정의 스타일 */
 
 [hidden] {
