@@ -419,7 +419,6 @@ video {
   display: none;
 }
 
-<<<<<<< HEAD
 h1 {
   font-size: 60px;
 }
@@ -432,7 +431,6 @@ h3 {
 }
 
 =======
->>>>>>> juhee
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -531,17 +529,13 @@ h3 {
 
 /* Tailwind 유틸리티 클래스와 플러그인에 의해 등록된 모든 유틸리티 클래스를 주입합니다. */
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 .mb-\[50px\] {
   margin-bottom: 50px;
 }
 
->>>>>>> seohyeon
 .box-border {
   box-sizing: border-box;
-=======
+}
 .my-\[83px\] {
   margin-top: 83px;
   margin-bottom: 83px;
@@ -558,7 +552,6 @@ h3 {
 
 .block {
   display: block;
->>>>>>> juhee
 }
 
 .inline-block {
@@ -569,7 +562,6 @@ h3 {
   display: flex;
 }
 
-<<<<<<< HEAD
 .h-\[60px\] {
   height: 60px;
 }
@@ -603,14 +595,12 @@ h3 {
 
 .max-w-4xl {
   max-width: 56rem;
->>>>>>> juhee
 }
 
 .flex-col {
   flex-direction: column;
 }
 
-<<<<<<< HEAD
 .items-center {
   align-items: center;
 }
@@ -620,14 +610,12 @@ h3 {
 =======
 .flex-wrap {
   flex-wrap: wrap;
->>>>>>> juhee
 }
 
 .justify-between {
   justify-content: space-between;
 }
 
-<<<<<<< HEAD
 .rounded {
   border-radius: 0.25rem;
 }
@@ -829,7 +817,6 @@ h3 {
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
->>>>>>> juhee
 }
 
 .font-bold {
@@ -841,9 +828,6 @@ h3 {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 .text-gray-200 {
   --tw-text-opacity: 1;
   color: rgb(229 231 235 / var(--tw-text-opacity));
@@ -859,24 +843,19 @@ h3 {
   color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 
->>>>>>> juhee
-=======
+
 .text-gray-400 {
   --tw-text-opacity: 1;
   color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
->>>>>>> seohyeon
 /* 사용자 정의 스타일 */
 
 [hidden] {
   display: none;
 }
-<<<<<<< HEAD
 
 .hover\:bg-red-700:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(185 28 28 / var(--tw-bg-opacity));
 }
-=======
->>>>>>> juhee
