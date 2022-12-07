@@ -1,11 +1,15 @@
 /** @type {import('tailwindcss').Config} */
+<<<<<<< HEAD
 
 const plugin = require("tailwindcss/plugin");
 
+=======
+>>>>>>> juhee
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {},
+<<<<<<< HEAD
     fontSize: {
       "2xl": [
         "60px",
@@ -48,4 +52,8 @@ module.exports = {
       });
     }),
   ],
+=======
+  },
+  plugins: [],
+>>>>>>> juhee
 };

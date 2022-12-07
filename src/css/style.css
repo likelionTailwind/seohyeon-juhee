@@ -419,6 +419,7 @@ video {
   display: none;
 }
 
+<<<<<<< HEAD
 h1 {
   font-size: 60px;
 }
@@ -430,6 +431,8 @@ h2 {
 h3 {
 }
 
+=======
+>>>>>>> juhee
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -528,14 +531,34 @@ h3 {
 
 /* Tailwind 유틸리티 클래스와 플러그인에 의해 등록된 모든 유틸리티 클래스를 주입합니다. */
 
+<<<<<<< HEAD
 .box-border {
   box-sizing: border-box;
+=======
+.my-\[83px\] {
+  margin-top: 83px;
+  margin-bottom: 83px;
+}
+
+.my-12 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.block {
+  display: block;
+>>>>>>> juhee
 }
 
 .flex {
   display: flex;
 }
 
+<<<<<<< HEAD
 .h-\[60px\] {
   height: 60px;
 }
@@ -546,24 +569,54 @@ h3 {
 
 .w-\[220px\] {
   width: 220px;
+=======
+.w-\[393px\] {
+  width: 393px;
+}
+
+.w-\[529px\] {
+  width: 529px;
+}
+
+.w-\[419px\] {
+  width: 419px;
+}
+
+.w-52 {
+  width: 13rem;
+}
+
+.w-\[133px\] {
+  width: 133px;
+}
+
+.max-w-4xl {
+  max-width: 56rem;
+>>>>>>> juhee
 }
 
 .flex-col {
   flex-direction: column;
 }
 
+<<<<<<< HEAD
 .items-center {
   align-items: center;
 }
 
 .justify-center {
   justify-content: center;
+=======
+.flex-wrap {
+  flex-wrap: wrap;
+>>>>>>> juhee
 }
 
 .justify-between {
   justify-content: space-between;
 }
 
+<<<<<<< HEAD
 .rounded {
   border-radius: 0.25rem;
 }
@@ -667,6 +720,97 @@ h3 {
   line-height: 26.4px;
   letter-spacing: -0.03em;
   font-weight: 700;
+=======
+.gap-5 {
+  gap: 1.25rem;
+}
+
+.rounded-sm {
+  border-radius: 0.125rem;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-t-4 {
+  border-top-width: 4px;
+}
+
+.border-gray-800 {
+  --tw-border-opacity: 1;
+  border-color: rgb(31 41 55 / var(--tw-border-opacity));
+}
+
+.border-gray-600 {
+  --tw-border-opacity: 1;
+  border-color: rgb(75 85 99 / var(--tw-border-opacity));
+}
+
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-left {
+  background-position: left;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
+.bg-origin-padding {
+  background-origin: padding-box;
+}
+
+.object-scale-down {
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+}
+
+.px-48 {
+  padding-left: 12rem;
+  padding-right: 12rem;
+}
+
+.py-14 {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.px-7 {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+}
+
+.pr-4 {
+  padding-right: 1rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+>>>>>>> juhee
 }
 
 .font-bold {
@@ -678,13 +822,34 @@ h3 {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+<<<<<<< HEAD
+=======
+.text-gray-200 {
+  --tw-text-opacity: 1;
+  color: rgb(229 231 235 / var(--tw-text-opacity));
+}
+
+.text-gray-300 {
+  --tw-text-opacity: 1;
+  color: rgb(209 213 219 / var(--tw-text-opacity));
+}
+
+.text-gray-500 {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+
+>>>>>>> juhee
 /* 사용자 정의 스타일 */
 
 [hidden] {
   display: none;
 }
+<<<<<<< HEAD
 
 .hover\:bg-red-700:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(185 28 28 / var(--tw-bg-opacity));
 }
+=======
+>>>>>>> juhee
