@@ -1,16 +1,19 @@
 /** @type {import('tailwindcss').Config} */
-<<<<<<< HEAD
 
 const plugin = require("tailwindcss/plugin");
 
-=======
->>>>>>> juhee
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {},
-<<<<<<< HEAD
     fontSize: {
+      "content-title":[
+        "48px",
+        {
+          lineHeight: "57.6px",
+          letterSpacing: "-0.05em",
+        }
+      ],
       "2xl": [
         "60px",
         {
@@ -52,8 +55,4 @@ module.exports = {
       });
     }),
   ],
-=======
-  },
-  plugins: [],
->>>>>>> juhee
-};
+}
