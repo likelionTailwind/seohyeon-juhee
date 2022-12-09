@@ -6,6 +6,17 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {},
+    screens: {
+      sm: { max: "837px" },
+      // => @media (min-width: 640px and max-width: 767px) { ... }
+
+      md: { min: "838px", max: "1015px" },
+      // => @media (min-width: 768px and max-width: 1023px) { ... }
+
+      lg: { min: "1016px" },
+      // => @media (min-width: 1024px and max-width: 1279px) { ... }
+    },
+
     fontSize: {
       "2xl": [
         "60px",
