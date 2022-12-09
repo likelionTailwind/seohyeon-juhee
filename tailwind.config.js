@@ -6,6 +6,14 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {},
+    screens: {
+      sm: { max: "799px" },
+
+      md: { min: "800px", max: "1015px" },
+
+      lg: { min: "1016px" },
+    },
+
     fontSize: {
       "content-title":[
         "48px",
@@ -55,4 +63,4 @@ module.exports = {
       });
     }),
   ],
-}
+};
