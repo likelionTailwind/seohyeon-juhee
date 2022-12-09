@@ -15,6 +15,13 @@ module.exports = {
     },
 
     fontSize: {
+      "content-title":[
+        "48px",
+        {
+          lineHeight: "57.6px",
+          letterSpacing: "-0.05em",
+        }
+      ],
       "2xl": [
         "60px",
         {

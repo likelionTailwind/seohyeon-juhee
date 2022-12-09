@@ -554,10 +554,6 @@ h3 {
   display: block;
 }
 
-.inline-block {
-  display: inline-block;
-}
-
 .flex {
   display: flex;
 }
@@ -692,6 +688,7 @@ h3 {
      object-fit: scale-down;
 }
 
+
 .py-\[40px\] {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -780,6 +777,7 @@ h3 {
   padding-right: 1rem;
 }
 
+
 .pb-\[16px\] {
   padding-bottom: 16px;
 }
@@ -805,6 +803,12 @@ h3 {
   font-size: 20px;
   line-height: 30px;
   letter-spacing: -0.03em;
+}
+
+.text-content-title {
+  font-size: 48px;
+  line-height: 57.6px;
+  letter-spacing: -0.05em;
 }
 
 .text-xs {
@@ -843,6 +847,7 @@ h3 {
   color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 
+
 .text-gray-400 {
   --tw-text-opacity: 1;
   color: rgb(156 163 175 / var(--tw-text-opacity));
@@ -853,6 +858,7 @@ h3 {
 [hidden] {
   display: none;
 }
+
 
 .hover\:bg-red-700:hover {
   --tw-bg-opacity: 1;
